@@ -1,4 +1,6 @@
 import React, {useRef} from 'react';
+import { MdOutlineEmail } from 'react-icons/md';
+import { RiMessengerLine, RiWhatsappLine } from "react-icons/ri";
 import './contact.css';
 import emailjs from 'emailjs-com';
 
@@ -25,16 +27,19 @@ function Contact() {
       <div className="container contact-container">
         <div className="contact-options">
           <article className="contact-option">
+            <MdOutlineEmail className="contact-icon" />
             <h3>Email</h3>
             <p>orjionyinyechi080@gmail.com</p>
             <a href="mailto:orjionyinyechi080@gmail.com">Send a message</a>
           </article>
           <article className="contact-option">
+            <RiMessengerLine className="contact-icon" />
             <h3>Messenger</h3>
             <p>orjionyinyechi</p>
             <a href="https://m.me/orji.onyinyechi">Send a message</a>
           </article>
           <article className="contact-option">
+            <RiWhatsappLine className="contact-icon" />
             <h3>Whatsapp</h3>
             <p>+2348097047076</p>
             <a href="https://api.whatsapp.com/send?phone=+2348097047076">Send a message</a>
