@@ -1,5 +1,5 @@
 import React, {useRef} from 'react';
-import { MdOutlineEmail } from 'react-icons/md';
+import { AiFillMail} from 'react-icons/ai';
 import { RiMessengerLine, RiWhatsappLine } from "react-icons/ri";
 import './contact.css';
 import emailjs from 'emailjs-com';
@@ -27,7 +27,7 @@ function Contact() {
       <div className="container contact-container">
         <div className="contact-options">
           <article className="contact-option">
-            <MdOutlineEmail className="contact-icon" />
+            <AiFillMail className="contact-icon" />
             <h3>Email</h3>
             <p>orjionyinyechi080@gmail.com</p>
             <a href="mailto:orjionyinyechi080@gmail.com">Send a message</a>
@@ -42,14 +42,29 @@ function Contact() {
             <RiWhatsappLine className="contact-icon" />
             <h3>Whatsapp</h3>
             <p>+2348097047076</p>
-            <a href="https://api.whatsapp.com/send?phone=+2348097047076">Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone=+2348097047076">
+              Send a message
+            </a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input type='text' name='name' placeholder='Your Full Name' required/>
-          <input type='email' name='email' placeholder='Your Email' required />
-          <textarea rows='5' name='message' columns='8' placeholder='Your Message' required></textarea>
-        <button type='submit' className='btn btn-primary'>Send Message</button>
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Full Name"
+            required
+          />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            rows="5"
+            name="message"
+            columns="8"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" className="btn btn-primary">
+            Send Message
+          </button>
         </form>
       </div>
     </section>
