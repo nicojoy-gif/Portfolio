@@ -1,6 +1,5 @@
 import React, {useRef} from 'react';
-import { AiFillMail} from 'react-icons/ai';
-import { RiMessengerLine, RiWhatsappLine } from "react-icons/ri";
+import { RiMessengerLine,RiMailFill, RiWhatsappLine } from "react-icons/ri";
 import './contact.css';
 import emailjs from 'emailjs-com';
 
@@ -27,7 +26,7 @@ function Contact() {
       <div className="container contact-container">
         <div className="contact-options">
           <article className="contact-option">
-            <AiFillMail className="contact-icon" />
+            <RiMailFill className="contact-icon" />
             <h3>Email</h3>
             <p>orjionyinyechi080@gmail.com</p>
             <a href="mailto:orjionyinyechi080@gmail.com">Send a message</a>
