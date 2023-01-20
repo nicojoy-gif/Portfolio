@@ -12,9 +12,9 @@ const Data = [
   {
     id: 2,
     image: Counter ,
-    name: "Counter App",
-    github: 'https://github.com/nicojoy-gif/Counter.git',
-    liveDemo: 'https://counter-five-iota.vercel.app/',
+    name: "Quote App",
+    github: 'https://github.com/nicojoy-gif/App.git',
+    liveDemo: 'https://react-quotes-five.vercel.app/',
   },
   {
     id: 3,
