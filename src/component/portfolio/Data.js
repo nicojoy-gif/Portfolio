@@ -12,7 +12,7 @@ const Data = [
   },
   {
     id: 2,
-    image: Counter ,
+    image: Quote ,
     name: "Quote App",
     github: 'https://github.com/nicojoy-gif/App.git',
     liveDemo: 'https://react-quotes-five.vercel.app/',
