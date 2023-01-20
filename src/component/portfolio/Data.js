@@ -1,4 +1,5 @@
 import Counter from '../../assets/counter.jpg';
+import Quote from '../../assets/quote.png';
 
 
 const Data = [
