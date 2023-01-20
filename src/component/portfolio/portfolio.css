@@ -18,9 +18,10 @@
 .portfolio-img{
     border-radius: 1.5rem;
     overflow: hidden;
+ 
 }
 img{
-    height: 56px;
+    height: 156px;
 }
 .portfolio-item h3{
     margin: 1.2rem 0 2rem;
