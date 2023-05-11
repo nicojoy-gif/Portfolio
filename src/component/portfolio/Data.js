@@ -2,7 +2,7 @@ import Counter from '../../assets/counter.jpg';
 import Quote from '../../assets/quote.png';
 import Able from '../../assets/able.png';
 import Abstract from '../../assets/abstract.png';
-
+import Git from '../../assets/git.jpg';
 const Data = [
   {
     id: 1,
@@ -34,10 +34,10 @@ const Data = [
   },
   {
     id: 5,
-    image: Counter ,
-    name: "Counter App",
-    github: "https://github.com/nicojoy-gif/Counter.git",
-    liveDemo: "https://counter-five-iota.vercel.app/",
+    image:Git ,
+    name: "Git App",
+    github: "https://github.com/nicojoy-gif/vuegitss.git",
+    liveDemo: "https://preeminent-taffy-0f4d56.netlify.app/",
   },
   {
     id: 6,
