@@ -8,8 +8,8 @@ const Data = [
     id: 1,
     image: Counter ,
     name: "Counter App",
-    github: "https://github.com/nicojoy-gif/Counter.git",
-    liveDemo: "https://counter-five-iota.vercel.app/",
+    github: "https://github.com/nicojoy-gif/counterApp.git",
+    liveDemo: "https://counter-fsofu1tcf-nicojoy-gif.vercel.app/",
   },
   {
     id: 2,
