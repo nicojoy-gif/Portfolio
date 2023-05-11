@@ -1,6 +1,7 @@
 import Counter from '../../assets/counter.jpg';
 import Quote from '../../assets/quote.png';
-
+import Able from '../../assets/able.png';
+import Abstract from '../../assets/abstract.png';
 
 const Data = [
   {
@@ -19,17 +20,17 @@ const Data = [
   },
   {
     id: 3,
-    image: Counter,
-    name: "Counter App",
-    github: "https://github.com/nicojoy-gif/Counter.git",
-    liveDemo: "https://counter-five-iota.vercel.app/",
+    image: Able,
+    name: "Ableton App",
+    github: "https://github.com/nicojoy-gif/appp.git",
+    liveDemo: "https://ableton-phi.vercel.app/",
   },
   {
     id: 4,
-    image: Counter,
-    name: "Counter App",
-    github: "https://github.com/nicojoy-gif/Counter.git",
-    liveDemo: "https://counter-five-iota.vercel.app/",
+    image: Abstract,
+    name: "Abstract App",
+    github: "https://github.com/nicojoy-gif/abstract.git",
+    liveDemo: "https://abstract-green.vercel.app/",
   },
   {
     id: 5,
