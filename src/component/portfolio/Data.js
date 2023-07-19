@@ -14,9 +14,9 @@ const Data = [
   {
     id: 2,
     image: Quote ,
-    name: "Quote App",
-    github: 'https://github.com/nicojoy-gif/App.git',
-    liveDemo: 'https://react-quotes-five.vercel.app/',
+    name: "Chatter App",
+    github: 'https://github.com/nicojoy-gif/chatter.git',
+    liveDemo: 'https://chatter-seven-rust.vercel.app/',
   },
   {
     id: 3,
