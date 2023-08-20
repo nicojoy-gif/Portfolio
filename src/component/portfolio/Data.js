@@ -21,9 +21,9 @@ const Data = [
   {
     id: 3,
     image: Able,
-    name: "Ableton App",
-    github: "https://github.com/nicojoy-gif/appp.git",
-    liveDemo: "https://ableton-phi.vercel.app/",
+    name: "Scissors App",
+    github: "https://github.com/nicojoy-gif/scissors.git",
+    liveDemo: "https://scissors-4a59.vercel.app/",
   },
   {
     id: 4,
@@ -46,14 +46,6 @@ const Data = [
     github: "https://github.com/nicojoy-gif/Counter.git",
     liveDemo: "https://counter-five-iota.vercel.app/",
   },
-  
-  {
-    id: 7,
-    image: Counter ,
-    name: "Scissors App",
-    github: "https://github.com/nicojoy-gif/scissors.git",
-    liveDemo: "https://scissors-4a59.vercel.app/",
-  }
 ];
 
 export default Data;
