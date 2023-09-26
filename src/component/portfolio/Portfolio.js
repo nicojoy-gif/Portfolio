@@ -1,10 +1,11 @@
 import React from 'react';
 import './portfolio.css';
 import Data from './Data';
+import { Link } from 'react-router-dom';
 
 function Portfolio() {
   return (
-    <section>
+    <section id='portfolio'>
       <h5>My Recent Works</h5>
       <h2>Portfolio</h2>
       <div className='container portfolio-container'>
@@ -15,20 +16,20 @@ function Portfolio() {
             </div>
             <h3>{item.name}</h3>
             <div className="portfolio">
-              <a
-                href={item.github}
+              <Link
+                to={item.github}
                 className="btn"
                 target="_blank"
               >
                 Github
-              </a>
-              <a
-                href={item.liveDemo}
+              </Link>
+              <Link
+                to={item.liveDemo}
                 className="btn btn-primary"
                 target="_blank"
               >
                 Live Demo
-              </a>
+              </Link>
             </div>
           </article>
         )})}

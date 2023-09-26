@@ -7,46 +7,76 @@ import { BiMessageSquareDetail } from 'react-icons/bi';
 import { FaToolbox } from 'react-icons/fa';
 import './nav.css';
 import { NavLink } from 'react-router-dom';
-
+import { Link, animateScroll as scroll } from "react-scroll";
 function Nav() {
   return (
     <nav className="nav">
-      <NavLink
-        className={({ isActive }) => (isActive ? "link-active" : "link")}
-        to="/"
+     <Link
+    activeClass="active"
+    to="header"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={200}
+    className='link'
       >
         <AiOutlineHome />
-      </NavLink>
-      <NavLink
-        className={({ isActive }) => (isActive ? "link-active" : "link")}
-        to="/about"
+      </Link>
+      <Link
+    activeClass="active"
+    to="about"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={200}
+    className='link'
       >
         <AiOutlineUser />
-      </NavLink>
-      <NavLink
-        className={({ isActive }) => (isActive ? "link-active" : "link")}
-        to="/experience"
+      </Link>
+      <Link
+    activeClass="active"
+    to="experience"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={200}
+    className='link'
       >
         <BiBook />
-      </NavLink>
-      <NavLink
-        className={({ isActive }) => (isActive ? "link-active" : "link")}
-        to="/portfolio"
+      </Link>
+      <Link
+    activeClass="active"
+    to="portfolio"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={200}
+    className='link'
       >
         <FaToolbox />
-      </NavLink>
-      <NavLink
-        className={({ isActive }) => (isActive ? "link-active" : "link")}
-        to="/services"
+      </Link>
+      <Link
+    activeClass="active"
+    to="services"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={200}
+    className='link'
       >
         <RiServiceLine />
-      </NavLink>
-      <NavLink
-        className={({ isActive }) => (isActive ? "link-active" : "link")}
-        to="/contact"
+      </Link>
+      <Link
+    activeClass="active"
+    to="contact"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={200}
+    className='link'
       >
         <BiMessageSquareDetail />
-      </NavLink>
+      </Link>
     </nav>
   );
 }

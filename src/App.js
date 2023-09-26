@@ -10,11 +10,12 @@ import { Routes, Route } from 'react-router-dom';
 import Nav from './component/Nav/nav';
 import Footer from './component/footer/Footer';
 import Error from './component/Error/Error';
+import Home from './component/Home/Home';
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element={<Header />} />
+        <Route path='/' element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path='/experience' element={<Experience />} />
@@ -23,7 +24,7 @@ function App() {
         <Route path='*' element={<Error />} />
       </Routes>
       <Nav />
-      <Footer />
+      
     </div>
   );
 }

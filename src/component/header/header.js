@@ -6,7 +6,7 @@ import HeaderSocials from './HeaderSocials';
 import { Link } from 'react-router-dom';
 function Header() {
   return (
-    <header>
+    <header id='header'>
       <div className="container header-box">
         <section className="header">
           <h5>Hello I'm</h5>
@@ -16,9 +16,7 @@ function Header() {
           <div className="image">
             <img className="dp" src={ME} alt="Profile" />
           </div>
-          <Link to='/contact' className="scroll">
-            scroll down
-          </Link>
+          
           <HeaderSocials />
         </section>
       </div>

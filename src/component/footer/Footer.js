@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './footer.css';
 import { FaFacebookF } from 'react-icons/fa';
 import { AiOutlineInstagram } from 'react-icons/ai';
@@ -12,29 +12,29 @@ function Footer() {
         <h1>ONYI</h1>
       </div>
       <ul className="footer-links">
-        <Link to="/" className="footer-link">
+        <NavLink to="/" className="footer-link">
           Home
-        </Link>
+        </NavLink>
 
-        <Link to="/about" className="footer-link">
+        <NavLink to="/about" className="footer-link">
           About
-        </Link>
+        </NavLink>
 
-        <Link to="/experience" className="footer-link">
+        <NavLink to="/experience" className="footer-link">
           Experience
-        </Link>
+        </NavLink>
 
-        <Link to="/portfolio" className="footer-link">
+        <NavLink to="/portfolio" className="footer-link">
           Portfolio
-        </Link>
+        </NavLink>
 
-        <Link to="/services" className="footer-link">
+        <NavLink to="/services" className="footer-link">
           Services
-        </Link>
+        </NavLink>
 
-        <Link to="/contact" className="footer-link">
+        <NavLink to="/contact" className="footer-link">
           Contact
-        </Link>
+        </NavLink>
       </ul>
       <div className="footer-social">
         <a href="https://facebook.com/orji.onyinyechi.90">

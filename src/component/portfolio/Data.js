@@ -2,6 +2,7 @@ import Counter from '../../assets/counter.jpg';
 import Quote from '../../assets/quote.png';
 import Able from '../../assets/able.png';
 import Abstract from '../../assets/abstract.png';
+import Movie from '../../assets/Poster (1).png'
 import Git from '../../assets/git.jpg';
 const Data = [
   {
@@ -41,10 +42,10 @@ const Data = [
   },
   {
     id: 6,
-    image: Counter ,
-    name: "Counter App",
-    github: "https://github.com/nicojoy-gif/Counter.git",
-    liveDemo: "https://counter-five-iota.vercel.app/",
+    image: Movie ,
+    name: "Movie App",
+    github: "https://github.com/nicojoy-gif/movie.git",
+    liveDemo: "https://movie-liart-six.vercel.app/",
   },
 ];
 
