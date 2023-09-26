@@ -24,11 +24,6 @@ function App() {
         <Route path='*' element={<Error />} />
       </Routes>
       <Nav />
-<<<<<<< HEAD
-      
-=======
-     
->>>>>>> ab97c78e2d03ae59a56f4d8635d9308f88793dc3
     </div>
   );
 }
