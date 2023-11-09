@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../assets/resume.pdf';
+import CV from '../../assets/joyresume.pdf';
 import './header.css';
 import { Link } from 'react-router-dom';
 
