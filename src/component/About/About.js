@@ -20,12 +20,12 @@ function About() {
               <article className="about-card">
                 <FaAward className='about-icon'/>
                 <h3>Experience</h3>
-                <h5>0+ Years Working</h5>
+                <h5>1+ Years Working</h5>
               </article>
               <article className="about-card">
                 <FiUsers className='about-icon' />
                 <h3>Clients</h3>
-                <h5>0+ Worldwide</h5>
+                <h5>1+ Worldwide</h5>
               </article>
               <article className="about-card">
                 <FaAward className='about-icon' />
