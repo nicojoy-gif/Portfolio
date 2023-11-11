@@ -28,14 +28,14 @@ function Experience() {
               <BsPatchCheckFill className="front-icon" />
               <div className="frontend-list">
                 <h4>JAVASCRIPT</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className="frontend-lists">
               <BsPatchCheckFill className="front-icon" />
               <div className="frontend-list">
                 <h4>REACT</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className="frontend-lists">
@@ -48,8 +48,8 @@ function Experience() {
             <article className="frontend-lists">
               <BsPatchCheckFill className="front-icon" />
               <div className="frontend-list">
-                <h4>BOOTSTRAP</h4>
-                <small className='text-light'>Intermediate</small>
+                <h4>TAILWIND</h4>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
           </div>
